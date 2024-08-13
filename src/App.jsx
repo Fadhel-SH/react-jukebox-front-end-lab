@@ -2,6 +2,7 @@ import { useState } from 'react';
 import TrackList from './components/TrackList';
 import TrackForm from './components/TrackForm';
 import NowPlaying from './components/NowPlaying';
+import './App.css';
 
 const App = () => {
   const [selectedTrack, setSelectedTrack] = useState(null);
